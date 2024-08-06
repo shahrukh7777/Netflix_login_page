@@ -1,0 +1,130 @@
+here is css file 
+*{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-family: sans-serif;
+
+}
+nav{
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 62px;
+}
+nav img{
+    width: 144px;
+    color: red;
+    z-index: 10;
+    position: relative;;
+}
+
+/* .main{
+    background-image: url(assests/images/background.jpg);
+    height: 100vh;
+    position: relative;
+    background-size: max(1200px,100vw);
+  
+} */
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(assests/images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.container{
+    background-color: rgba(0,0,0,0.7);
+    height: 91.5vh;
+    width: 20vw;
+  margin :32px 576px;
+  padding: 31px 48px;
+  border-radius: 4px;
+    
+}
+.container .h{
+   padding:20px;
+}
+.container .inp input {
+    background: transparent;
+    color: #fff;
+    padding: 17px 120px 14px 21px;
+    border-radius: 3px;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 8px 0px;
+    border: 1px solid gray;
+}
+.container button{
+    padding: 13px 243px 14px 29px;
+    border-radius: 7px;
+    font-weight: 400;
+    background-color: #c20000;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 8px;
+}
+.container .OR{
+    text-align: center;
+   margin-top: 10px;
+}
+.container .use{
+    text-align: center;
+    background-color: rgba(236, 225, 225, 0.2);
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+.container .forget{
+    text-align: center;
+    margin-top: 13px;
+}
+.container .checkbox{
+   height: 20px;
+   margin-top: 13px;
+   background-color: transparent;
+}
+.container .New{
+    margin-top: 13px;
+    cursor: pointer;
+}
+.container .New >:first-child
+{
+    color: grey;
+    font-size: 13px;
+}
+.container >.New >:nth-child(2)
+{
+    font-weight: bold;
+}
+.container footer{
+    margin-top: 20px;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+button:hover{
+    background-color: green;
+
+}
+.use:hover{
+    background-color: rgb(61, 70, 77);
+}
+.container input:hover{
+    background-color: rgb(174, 174, 189);
+
+}
+.New:hover{
+
+    color: cadetblue;
+}
+
